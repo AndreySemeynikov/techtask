@@ -1,0 +1,72 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+# Для плагина Lombok
+.lombok/
+# Каталоги, относящиеся к кешам и зависимостям
+.idea/*
+!.idea/vcs.xml
+!.idea/modules.xml
+!.idea/workspace.xml
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+# лог сборки
+build.log
+
+### Gradle ###
+.gradle/
+build/
+
+### Eclipse ###
+.project
+.classpath
+.cproject
+.settings/
+.factorypath
+
+### OS-specific ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+
+### Environment-specific ###
+.env
+
+### Temporary files ###
+*.tmp
+*.swp
+*.swo
+
+### Spring Boot ###
+# Spring Boot devtools
+.spring-boot-devtools.properties
+# Сгенерированные метрики, профили, файлы кеша
+actuator/metrics
+actuator/prometheus
+actuator/logfile
+
+### Node ###
+node_modules/
+yarn-error.log
+yarn.lock
+package-lock.json
+npm-debug.log
+
+
+### Other ###
+# Каталоги и файлы сборки
+target/
+bin/
+logs/
